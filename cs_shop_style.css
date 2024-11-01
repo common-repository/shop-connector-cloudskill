@@ -1,0 +1,240 @@
+.cs_shop_btn_group{
+    background-color: #0071a1; /* Green */
+    border: 1px solid #016087;
+    border-radius: 10px;
+    color: white !important;
+    padding: 5px 5px;
+    margin-top: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+    display: block;
+    font-weight: 400;
+}
+
+.cs_shop_btn_group{
+    background-color: #016087;
+}
+
+.cs_shop_btn_table_button{
+    margin-bottom: 10px;
+}
+
+.cs_shop_data_block{
+    margin-bottom: 20px;
+}
+
+.cs_shop_pad_p{
+    margin-bottom: 1px;
+}
+
+.cs_shop_btn_del {
+    background-color: red;
+    border: 1px solid #016087;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    font-size:16px;
+}
+
+cs_shop_table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1em;   
+}
+
+cs_shop_table th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+cs_shop_table tr {
+    background-color: #dddddd;
+}
+
+.cs_shop_nav_wrapper {
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 0;
+    line-height: inherit;
+    border-bottom: 1px solid #c3c4c7;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity 1s, transform 0.5s;
+}
+
+.cs_shop_nav_tab {
+    float: bottom;
+    border: 1px solid #c3c4c7;
+    border-bottom: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1.71428571;
+    font-weight: 600;
+    background: #dcdcde;
+    color: #50575e;
+    text-decoration: none;
+    white-space: nowrap;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity 1s, transform 0.5s;
+}
+
+.cs_shop_nav_tab:hover {
+    background: #f1f1f1;
+    color: black;
+}
+
+.cs_shop_nav_tab:active, 
+.cs_shop_nav_tab:visited, 
+.cs_shop_nav_tab:focus{
+    color: black;
+}
+
+.cs_shop_nav_tab_active {
+    border-bottom: 1px solid #f0f0f1;
+    background: #f0f0f1;
+    color: #000;
+}
+
+.cs_shop_form_table{
+    width: 100%;
+    clear: both;
+    border-color: transparent;
+    background-color: #d1d1d1;
+    border-radius: 5px;
+}
+
+.cs_shop_table_header {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.cs_shop_orders {
+    width: 98.5%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s, transform 0.5s;
+}
+
+.cs_shop_table_fancy {
+    border-collapse: collapse;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.cs_shop_table_fancy th, .cs_shop_table_fancy td {
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.cs_shop_table_fancy th{
+    font-weight: bolder;
+    background-color: #4289fc;
+    color: black;
+}
+
+.cs_shop_table_fancy tr:hover {
+    background-color: #e6faf9;
+}
+
+.cs_shop_table_fancy tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+.cs_shop_table_fancy tr:nth-child(odd):hover {
+    background-color: #e6faf9;
+}
+
+.cs_shop_table_cs_check {
+    align-items: center;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cs_shop_table_cs_check_element {
+    margin-right: 10px;
+}
+
+.cs_shop_table_sendto_cskill {
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    height: 30px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cs_shop_table_sendto_cskill:hover {
+    background-color: #2980b9;  
+}
+
+.cs_shop_header {
+    display: flex; 
+    height: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.cs_shop_bes_header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity 1s, transform 0.5s;
+}
+
+.cs_shop_settings_token {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1s, transform 0.5s;
+}
+
+.cs_shop_settings_api_keys {
+    opacity: 0;
+    transform: translatex(-100px);
+    transition: opacity 1s, transform 0.5s;
+}
+
+.cs_shop_job_vorlage{
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1s, transform 0.5s;
+}
+
+.cs_shop_auth_token{
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1s, transform 0.5s;
+}
+
+.cs_shop_animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cs_shop_ani {
+
+}
+
+.cs_shop_number_check {
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+}
+
